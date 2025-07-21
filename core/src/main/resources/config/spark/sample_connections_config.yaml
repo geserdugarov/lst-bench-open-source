@@ -1,4 +1,8 @@
 # Description: Connections Configuration
+# If you decide to use the Hive driver, please ensure that you have a Thrift server
+# running and the Hive JDBC driver is available in your classpath. If you use a Spark
+# connection, ensure that you pass on all configuration parameters here in the 
+# `config` section.
 ---
 version: 1
 connections:
